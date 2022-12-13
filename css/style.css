@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    left: 0%;
+    padding-left: 10%;
+    margin-top: 0;
+    background: transparent;
+    
+}
+
+.img{
+    position: absolute;
+    left: 0;
+    padding-left: 1rem;
+    
+}
+
+.setting{
+    display: flex;
+    float: right;
+   
+
+}
+.search-icon{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    box-shadow: 4px 5px 12px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+}
+
+.group-icon{
+    display: flex;
+    align-items: center;
+    border-left: solid 1px gray;
+    padding-left: 0.7rem;
+}
+
+.group-icon i{
+    margin: 0.2rem;
+}
+
+.search-icon input{
+    padding: 0.6rem;
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    border-bottom: 0.1rem solid #b7b7b7;
+    
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+.options > a{
+    color: rgb(13, 11, 11);
+    text-decoration: none;
+}
+
+.tools{
+    padding-left: 6rem;
+}
+
+.safe{
+    padding-left: 28rem;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    color: gray;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+.bio{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    padding-top: 12rem;
+    padding-left: 2rem;
+    font-size: x-large;
+    font-weight: light;
+}
+
+.player{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    padding-top: 14rem;
+    padding-left: 2rem;
+    font-size: small;
+    font-weight: light;
+}
+
+.vertical{
+    padding-left: 0.5rem;
+    
+}
+
+.btn-1{ 
+    margin-left: 5rem;
+    
+    
+}
+
+button{
+    margin-bottom: 20rem;
+    margin-right: 1rem;
+    background-color:  #e2eeff;
+    color: #0060f0;
+   padding: 11px 19px;
+   border-radius: 19px;
+   border-color: #e2eeff;
+   border: none;
+}
+
+button > a{
+    text-decoration: none;
+}
+
+.web{
+    margin-top: 18rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: white;
+  margin-left: 2rem;
+  margin-right: 10rem;
+    position: absolute;
+    top: 0;
+    padding-top: 40px;
+
+}
+
+.ron{
+    display: inline-flex;
+    height: 350px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+   
+}
+
+.ron1{
+    box-shadow: 2px 1px 20px 5px rgb(232, 235, 238);
+    border-radius: 15px;
+}
+
+.card{
+    display: inline-block;
+    width: 22rem;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 8rem;
+    
+}
+
+.yt-card{
+    border-radius: 5px;
+    box-shadow: 2px 1px 20px 5px rgb(232, 235, 238);
+    background-color: white;
+    border: 0.15rem solid none;
+}
+
+/* .cris-div{
+    display: inline-flex;
+    width: 100px;
+   height: 200px;
+   margin: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #0060f0;
+    
+} */
+
+.mirror{
+    display: inline-flex;
+    width: 20rem;
+    height: 9rem;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #e2eeff;
+    margin-left: 2rem;
+   
+}
+
+.age{
+    display: inline-flex;
+    width: 5rem;
+    margin: 20px;
+    padding-top: 50rem;
+    padding-left: 28rem;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color:#e2eeff;
+}
+
+
+.wiki{
+    position: absolute;
+    top: 0;
+    width: 30rem;
+    padding-top: 47rem;
+    padding-left: 2rem;
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.5;
+}
+.wiki a{
+    color: #1a0dab;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+}
+
+.linkss{
+    display: block;
+    flex: 0 0 auto;
+    contain: layout paint;
+    overflow: hidden;
+    line-height: 1.58;
+    position: absolute;
+    top: 0;
+    padding-top: 54rem;
+    padding-left: 2rem;
+    font-weight: normal;
+    font-size: 14px;
+    
+    
+}
+
+.class-a a{
+    color: #1a0dab;
+    text-align: left;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+
+    
+    
+}
+
+.people-search{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 600px;
+    padding-top: 58rem;
+    padding-left: 2rem;
+    font-weight: normal;
+    font-size: 16px;
+    
+    
+}
+
+.searching{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 100px;
+    text-align: left;
+}
+
+.exp-c{
+    display: block;
+    align-self: flex-start;
+}
+
+.solid{
+    padding-left: 24rem;
+}
+.ads-table{
+   text-decoration: none;
+   width: 60%;
+}
+.ads-table, tr,.brasil {
+    border: 1px ;
+    padding: 3px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.ads-table, .brasil, a{
+    text-decoration: none;
+}
+
+.ras{
+    padding: 100px 20px;
+    padding: 0.1rem;
+    position: absolute;
+    top: 0;
+    padding-top: 66rem;
+  }
+  .ras-wrapper{
+    width: 600px;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+  }
+  
+  .ras h2{
+    text-align: center;
+  }
+  
+  .ras-title{
+    display: block;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    margin: 2px 0;
+    position: relative;
+    border-bottom: 1px solid #b7b7b7;
+  }
+  
+  .ras-title::after{
+    content: "+";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .ras-item__content{
+  display: none;
+  padding: 20px;
+  background: #303030;
+  margin: 3px 0;
+  }
+  
+  .ras-item__content:target{
+    display: inline-block;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+/* .stat-nav{
+    margin-left: 50em;
+    margin-right: 0;
+    width: 38%;
+    height: 30vh;
+    padding-right: 0;
+    justify-content: space-between;
+   
+    
+    
+      
+}
+
+.stat-container{
+     
+    padding-right: 2px;
+    position: absolute;
+    top: 0;
+    margin-top: 48rem;
+    
+    
+}
+
+.stats-table, .league {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    
+  }
+ .league {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 40px;
+    font-size: 14px;
+    color: black;
+  }
+
+  .athlet{
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 10px, 0px;
+  }
+
+  .dos{
+    padding-bottom: 10px;
+    margin-top: 0;
+    
+  }
+
+  .born{
+    padding-bottom: 10px;
+    align-content: flex-end;
+  }
+
+  .current-team{
+    padding-bottom: 10px;
+  }
+
+  .children{
+    padding-bottom: 10px;
+  }
+
+  .joined{
+    padding-bottom: 10px;
+  }
+
+  .height{
+    padding-bottom: 10px;
+  }
+
+  .salary{
+    padding-bottom: 10px;
+  }
+
+  .awards{
+    padding-bottom: 10px;
+  }
+
+  .claim{
+    
+  }
+
+  .feedback{
+    padding-left: 7rem;
+  }
+
+  .angle{
+    padding-left: 16rem;
+  }
+
+  .checking{
+    color: black;
+  }
+
+  .google{
+    padding-bottom: 12px;
+    color: black;
+  }
+
+  .gal{
+    padding-bottom: 10px;
+    color: black;
+  } */
+
+  
+/*.search-for{
+    display: inline-block;
+    max-height: 72px;
+    white-space: normal;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    width: calc(100% - 14px);
+    
+}
+ .exp-c{
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    text-align: left;
+}
+
+ .ad-1{
+    display: block;
+    margin-bottom: 0;
+    border: 1px solid black;
+    margin-right: 16px;
+    text-decoration: none;
+
+}  */
+
+@media screen and (max-width: 1300px) and (min-width: 550px) {
+    header {
+      flex-direction: row;
+    }
+  
+    
+    .hero-section .content {
+      width: 80%;
+      color: #fff;
+    }
+  
+    .nav .options {
+      font-size: 1rem;
+    }
+  
+    .search-icon input {
+      width: 100%;
+    }
+    
+    .search-icon .group-icon {
+      padding: 0.6rem 1rem;
+      margin-top: 1rem;
+    }
+
+    .card{
+        width: 22rem;
+        margin: 10px;
+        padding: 10px;
+        padding-left: 8rem;
+    }
+
+    .mirror .age{
+        width: 20rem;
+        height: 9rem;
+        margin: 20px;
+        padding: 10px;
+        margin-bottom: 5px;
+        margin-left: 2rem;
+       
+    }
+
+    .linkss{
+        padding-top: 54rem;
+        padding-left: 2rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 1211px) and (min-width: 550px)  {
+    .people-search .ras-wrapper{
+        margin: 28px;
+           
+    }
+    
+    .ras-wrapper{
+        margin: 44px;
+    }
+}
